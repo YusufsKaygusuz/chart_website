@@ -13,16 +13,38 @@
     <img src="https://asset.brandfetch.io/idFdo8ulhr/idzj34qGQm.png" alt="Screenshot" style="width:15%; ">
 </p>
 
-## Demo
+## Using
 
-You can view a live demo of the chart templates [here](https://your-demo-link).
+1) Install `Python` packages. 
+
+        pip install pandas
+
+2) Open the `dataset.csv` file and update your data.
+
+        label,value
+        Red,12
+        Blue,19
+        Yellow,3
+        Green,5
+        Purple,2
+        Orange,3
+
+
+3) Update your dataset using the relevant tags and values. Generate the JavaScript code by running `main.py`.
+
+       python main.py
+
+
+4) This step reads the data from the dataset.csv file using the pandas library on the Python side and generates the JavaScript code. The generated JavaScript code is written to the chart4.js file. Open the `index.html` file in a web browser to view the results.
+
+        double-click index.html
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/username/repo-name.git
+   git clone https://github.com/username/chart_website.git
 
 
 1. Open the index.html file in your web browser.
@@ -44,4 +66,5 @@ Contributions are welcome! If you have any suggestions or improvements, please o
 ## License
 This project is licensed under the [MIT License](https://opensource.org/license/mit/).
 
-Not: `https://github.com/username/repo-name` bağlantısını gerçek GitHub deposunun URL'siyle değiştirmeniz gerektiğini unutmayın. Ayrıca, `your-demo-link` bağlantısını canlı demoya ait URL ile değiştirmeniz gerekmektedir.
+Note: Note that you need to replace the  `https://github.com/username/repo-name` link with the URL of the actual GitHub repository.
+Also, you need to replace `your-demo-link` with the URL of the live demo.
